@@ -2,14 +2,40 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Platforms>AnyCPU;x86;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <Compile Remove="NewFolder1\**" />
+    <Compile Remove="NewFolder\**" />
+    <Compile Remove="Util\UserUtil\**" />
+    <Content Remove="NewFolder1\**" />
+    <Content Remove="NewFolder\**" />
+    <Content Remove="Util\UserUtil\**" />
+    <EmbeddedResource Remove="NewFolder1\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <EmbeddedResource Remove="Util\UserUtil\**" />
+    <None Remove="NewFolder1\**" />
+    <None Remove="NewFolder\**" />
+    <None Remove="Util\UserUtil\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Util\" />
+    <Compile Remove="Controllers\EventsLogsController.cs" />
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="6.0.5" />
+    <PackageReference Include="SQLite" Version="3.13.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Delta.Wsq">
+      <HintPath>bin\Debug\net5.0\Delta.Wsq.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

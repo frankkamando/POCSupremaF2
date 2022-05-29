@@ -7,6 +7,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using SupremaF2.Interface;
+using SupremaF2.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +34,7 @@ namespace SupremaF2
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SupremaF2", Version = "v1" });
             });
+          //  services.AddSingleton<IUserControl, UserControl>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

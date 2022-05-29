@@ -27,3 +27,14 @@ C:\Users\Frank\source\repos\SupremaF2\SupremaF2\obj\Debug\net5.0\SupremaF2.dll
 C:\Users\Frank\source\repos\SupremaF2\SupremaF2\obj\Debug\net5.0\ref\SupremaF2.dll
 C:\Users\Frank\source\repos\SupremaF2\SupremaF2\obj\Debug\net5.0\SupremaF2.pdb
 C:\Users\Frank\source\repos\SupremaF2\SupremaF2\obj\Debug\net5.0\SupremaF2.genruntimeconfig.cache
+C:\Users\Frank\source\repos\SupremaF2\SupremaF2\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\Users\Frank\source\repos\SupremaF2\SupremaF2\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Frank\source\repos\SupremaF2\SupremaF2\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\Users\Frank\source\repos\SupremaF2\SupremaF2\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\Frank\source\repos\SupremaF2\SupremaF2\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Frank\source\repos\SupremaF2\SupremaF2\bin\Debug\net5.0\runtimes\linux-x64\native\libsqlite3.so
+C:\Users\Frank\source\repos\SupremaF2\SupremaF2\bin\Debug\net5.0\runtimes\osx-x64\native\libsqlite3.dylib
+C:\Users\Frank\source\repos\SupremaF2\SupremaF2\bin\Debug\net5.0\runtimes\win7-x64\native\sqlite3.dll
+C:\Users\Frank\source\repos\SupremaF2\SupremaF2\bin\Debug\net5.0\runtimes\win7-x86\native\sqlite3.dll
+C:\Users\Frank\source\repos\SupremaF2\SupremaF2\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Frank\source\repos\SupremaF2\SupremaF2\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
