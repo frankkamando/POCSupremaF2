@@ -624,6 +624,7 @@ namespace Suprema
                             respUserr.code = Codes.FAILED;
                             API.BS2_ReleaseContext(sdkContext);
                             sdkContext = IntPtr.Zero;
+                            ClearSDK();
                             return respUserr;
                         }
                     }
@@ -893,7 +894,7 @@ namespace Suprema
         {
             UInt32 deviceID = 0;
             ConnectToDeviceUnit(ref deviceID, reqDevice);
-            const UInt32 defaultLogPageSize = 1024;
+            const UInt32 defaultLogPageSize = 5000;
             Type structureType = typeof(BS2Event);
             int structSize = Marshal.SizeOf(structureType);
             bool getAllLog = false;
