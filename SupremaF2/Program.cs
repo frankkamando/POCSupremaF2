@@ -4,7 +4,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Suprema;
 using SupremaF2.Controllers;
-using SupremaF2.Interface;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ namespace SupremaF2
 {
     public class Program : UnitTest
     {
-        private readonly IUserControl _control;
+       // private readonly IUserControl _control;
         private DeviceIntergrationWithIP uc = new DeviceIntergrationWithIP();
         //public UnitTest unitTest;
 

@@ -7,7 +7,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using SupremaF2.Interface;
 using SupremaF2.Repository;
 using System;
 using System.Collections.Generic;

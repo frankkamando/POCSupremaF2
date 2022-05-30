@@ -6,15 +6,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Interface\**" />
     <Compile Remove="NewFolder1\**" />
     <Compile Remove="NewFolder\**" />
     <Compile Remove="Util\UserUtil\**" />
+    <Content Remove="Interface\**" />
     <Content Remove="NewFolder1\**" />
     <Content Remove="NewFolder\**" />
     <Content Remove="Util\UserUtil\**" />
+    <EmbeddedResource Remove="Interface\**" />
     <EmbeddedResource Remove="NewFolder1\**" />
     <EmbeddedResource Remove="NewFolder\**" />
     <EmbeddedResource Remove="Util\UserUtil\**" />
+    <None Remove="Interface\**" />
     <None Remove="NewFolder1\**" />
     <None Remove="NewFolder\**" />
     <None Remove="Util\UserUtil\**" />
