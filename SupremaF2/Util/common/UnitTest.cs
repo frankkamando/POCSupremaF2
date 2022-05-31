@@ -338,7 +338,7 @@ namespace Suprema
                 return "Invalid ip : " + deviceIpAddress;
             }
            // BS2ErrorCode rmresult = (BS2ErrorCode)API.BS2_DisconnectDevice(sdkContext, deviceID);
-            UInt16 port = Convert.ToUInt16(reqDevice.DevicePort == null ? (UInt16)BS2Environment.BS2_TCP_DEVICE_PORT_DEFAULT : reqDevice.DevicePort);
+            UInt16 port = Convert.ToUInt16(reqDevice.DevicePort == null ? ((UInt16)BS2Environment.BS2_TCP_DEVICE_PORT_DEFAULT).ToString(): reqDevice.DevicePort);
             Console.WriteLine("Trying to connect to device [ip :{0}, port : {1}]", deviceIpAddress, port);
             IntPtr ptrIPAddr = Marshal.StringToHGlobalAnsi(deviceIpAddress);
             BS2ErrorCode result = (BS2ErrorCode)API.BS2_ConnectDeviceViaIP(sdkContext, ptrIPAddr, port, out deviceID);

@@ -1,45 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Frank\\source\\repos\\SupremaF2\\SupremaF2\\SupremaF2.csproj": {}
+    "C:\\Users\\evari\\Downloads\\POCSupremaF2\\SupremaF2\\SupremaF2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Frank\\source\\repos\\SupremaF2\\SupremaF2\\SupremaF2.csproj": {
+    "C:\\Users\\evari\\Downloads\\POCSupremaF2\\SupremaF2\\SupremaF2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Frank\\source\\repos\\SupremaF2\\SupremaF2\\SupremaF2.csproj",
+        "projectUniqueName": "C:\\Users\\evari\\Downloads\\POCSupremaF2\\SupremaF2\\SupremaF2.csproj",
         "projectName": "SupremaF2",
-        "projectPath": "C:\\Users\\Frank\\source\\repos\\SupremaF2\\SupremaF2\\SupremaF2.csproj",
-        "packagesPath": "C:\\Users\\Frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Frank\\source\\repos\\SupremaF2\\SupremaF2\\obj\\",
+        "projectPath": "C:\\Users\\evari\\Downloads\\POCSupremaF2\\SupremaF2\\SupremaF2.csproj",
+        "packagesPath": "C:\\Users\\evari\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\evari\\Downloads\\POCSupremaF2\\SupremaF2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Frank\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\evari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -50,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.Data.Sqlite.Core": {
               "target": "Package",
@@ -88,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
